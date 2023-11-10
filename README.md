@@ -1,7 +1,8 @@
 # cd_lab_s5
 CD lab problems
-
+----------------------------------------------------------
 lex:
+
 lex pgm1.l
 
 gcc lex.yy.c -o pgm1 -lfl
@@ -9,15 +10,19 @@ gcc lex.yy.c -o pgm1 -lfl
 ./pgm1 < input_1.txt
 
 
+---------------------------------------------------------
+
 yacc:
+
 yacc pgm2.y -d 
 
 cc y.tab.c 
 
 ./a.out
 
-
+------------------------------------------------------------
 lex and yacc:
+
 yacc pgm3.y -d 
 
 lex pgm3.l
